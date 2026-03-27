@@ -110,13 +110,9 @@ library/
 
 ## 📸 Screenshots
 
-(Add your screenshots here)
-
-```
 screenshots/login.png
 screenshots/dashboard.png
 screenshots/transactions.png
-```
 
 ---
 

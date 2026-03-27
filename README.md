@@ -1,72 +1,69 @@
 # 📚 Library Management System
 
-A fully functional **Library Management System** built using **PHP, MySQL, Bootstrap 5, and JavaScript**.
-This project simulates real-world library operations including book management, membership handling, issuing/returning books, and fine calculation.
+This is a simple and fully functional **Library Management System** built using **PHP, MySQL, Bootstrap, and JavaScript**.
+The goal of this project was to understand how real-world systems manage books, users, and transactions like issuing and returning.
 
 ---
 
 ## 🚀 Features
 
-### 🔐 Authentication
+### 🔐 Login System
 
-* Admin & User login system
+* Separate login for Admin and User
 * Session-based authentication
-* Role-based access control
+* Role-based access
 
 ### 📚 Library Operations
 
-* Book & Movie Management
-* Membership Management
-* Issue & Return System
-* Fine Calculation (₹5/day for overdue)
+* Add / update books and movies
+* Manage memberships
+* Issue and return books
+* Fine calculation for overdue returns (₹5/day)
 
 ### 📊 Reports
 
-* Master List of Books & Movies
-* Membership Records
-* Active Issues
-* Overdue Returns
-* Pending Requests
+* Master list of books and movies
+* Membership records
+* Active issued books
+* Overdue returns
+* Pending requests
 
-### ⚙️ Admin Panel
+### ⚙️ Admin Controls
 
-* Add / Update Books & Movies
-* Add / Update Memberships
-* User Management
+* Manage books, members, and users
+* Full CRUD operations
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Frontend:** HTML, Bootstrap 5, JavaScript
-* **Backend:** PHP (Core PHP)
-* **Database:** MySQL
+* PHP (Core PHP)
+* MySQL
+* Bootstrap 5
+* JavaScript
 
 ---
 
-## ⚡ How to Run Locally
+## ⚡ How to Run
 
-1. Install **XAMPP**
-2. Move project folder to:
+1. Install XAMPP
+2. Move the project folder to:
 
-   ```bash
+   ```
    htdocs/library
    ```
-3. Start:
-
-   * Apache
-   * MySQL
-4. Open browser:
+3. Start Apache and MySQL
+4. Open:
 
    ```
    http://localhost/library
    ```
 
-👉 Database and tables will be created automatically on first run.
+👉 The database will be created automatically when you run the project for the first time.
 
 ---
 
-## 🔑 Login Credentials
+## 🔑 Login Details
 
 **Admin**
 
@@ -84,45 +81,42 @@ This project simulates real-world library operations including book management, 
 
 ```
 library/
-│── index.php        # Main router
-│── conn.php         # Backend logic (all operations)
-│── header.php       # UI header
-│── footer.php       # UI footer
-│── login.php        # Login page
-│── home.php         # Dashboard
-│── transactions/    # Issue, Return, Fine modules
-│── reports/         # Reports module
-│── maintenance/     # Admin management
+│── index.php
+│── conn.php
+│── header.php
+│── footer.php
+│── login.php
+│── home.php
+│── transactions/
+│── reports/
+│── maintenance/
 ```
-
----
-
-## 🎯 Key Highlights
-
-* Modular architecture with centralized routing
-* Real-world business logic implementation
-* Automatic serial number generation
-* Fine calculation based on overdue days
-* Clean and responsive UI design
-* Full CRUD operations
 
 ---
 
 ## 📸 Screenshots
 
-screenshots/login.png
-screenshots/dashboard.png
-screenshots/transactions.png
+### Login Page
+
+![Login](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Transactions
+
+![Transactions](screenshots/transactions.png)
 
 ---
 
-## ⚠️ Important Note
+## ⚠️ Note
 
-This project is built for **learning and demonstration purposes**.
-For production use:
+This project is made for learning purposes.
+For real-world use, improvements can be done like:
 
-* Replace MD5 with secure hashing (bcrypt)
-* Use prepared statements to prevent SQL injection
+* Using prepared statements
+* Better password encryption (bcrypt)
 
 ---
 
@@ -132,5 +126,4 @@ Vaibhav Gupta
 
 ---
 
-💡 This project demonstrates strong understanding of backend development, database design, and real-world application workflows.
-
+This project helped me understand backend logic, database handling, and how a complete system is structured.
